@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCOUNT_ID="120717539064"
-        AWS_DEFAULT_REGION="us-west-2"
-        IMAGE_REPO_NAME="sample"
-        IMAGE_TAG="v1"
+        AWS_ACCOUNT_ID="886769871966"
+        AWS_DEFAULT_REGION="eu-north-1"
+        IMAGE_REPO_NAME="jenkins_pipeline_scm"
+        IMAGE_TAG="latest"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
     }
    
