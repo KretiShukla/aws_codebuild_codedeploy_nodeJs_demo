@@ -5,8 +5,7 @@ pipeline {
         NODE_ENV='production'
     }
     
-  
-    stages {
+   stages {
        
         stage('source') {
             steps {
